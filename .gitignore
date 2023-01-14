@@ -1,0 +1,5 @@
+*.sqlite3
+*.swp
+ui/dist/*
+stereo
+stereo-arm

@@ -1,0 +1,49 @@
+module Color {
+  // Color definitions
+  const GRAY_XXLIGHT = "hsl(0, 0%, 97%)"
+  const GRAY_XLIGHT = "hsl(0, 0%, 95%)"
+  const GRAY_LIGHT = "hsl(0, 0%, 88%)"
+  const GRAY_MEDIUM_LIGHT = "hsl(0, 0%, 70%)"
+  const GRAY_MEDIUM = "hsl(0, 0%, 40%)"
+  const GRAY_MEDIUM_DARK = "hsl(0, 0%, 20%)"
+  const GRAY_DARK = "hsl(0, 0%, 10%)"
+  const GRAY_XDARK = "hsl(0, 0%, 6%)"
+
+  const ACCENT_LIGHT = "hsl(190, 0%, 95%)"
+  const ACCENT_MEDIUM = "hsl(190, 0%, 70%)"
+
+  const BLACK = "hsl(0, 0%, 0%)"
+  const WHITE = "hsl(0, 0%, 100%)"
+
+  // Color references
+  const ALBUM_BORDER = GRAY_DARK
+
+  const EYEBROW_COLOR = GRAY_MEDIUM
+
+  const ITEM_BORDER = GRAY_DARK
+  const ITEM_HOVER = GRAY_DARK
+  const ITEM_SUBTEXT = GRAY_MEDIUM
+  const ITEM_TITLE = GRAY_XXLIGHT
+
+  const MENU_BACKGROUND = GRAY_DARK
+  const MENU_ITEM_BORDER = BLACK
+
+  const NAV_BACKGROUND = BLACK
+  const NAV_BORDER = BLACK
+  const NAV_LINKS = GRAY_LIGHT
+  const NAV_MENU_BUTTON = GRAY_DARK
+
+  const NOW_PLAYING_ARTIST_COLOR = GRAY_MEDIUM_LIGHT
+  const NOW_PLAYING_BACKGROUND = GRAY_XDARK
+  const NOW_PLAYING_BUTTON_COLOR = GRAY_LIGHT
+  const NOW_PLAYING_BUTTON_HOVER_BACKGROUND = GRAY_DARK
+  const NOW_PLAYING_BUTTON_HOVER_COLOR = WHITE
+  const NOW_PLAYING_COLOR = WHITE
+  const NOW_PLAYING_PROGRESS_BAR = WHITE
+  const NOW_PLAYING_PROGRESS_BAR_BACKGROUND = GRAY_MEDIUM_DARK
+  const NOW_PLAYING_PROGRESS_BAR_TIMESTAMP = GRAY_LIGHT
+
+  const SEARCH_BOX_BACKGROUND = BLACK
+  const SEARCH_BOX_BORDER = GRAY_MEDIUM_DARK
+  const SEARCH_BOX_COLOR = GRAY_XLIGHT
+}
