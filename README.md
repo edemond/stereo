@@ -13,6 +13,8 @@ The app has an SPA frontend in [Mint](https://mint-lang.com/) served by a backen
 You point the Go server at a directory of music files, and it indexes them in SQLite.
 It publishes API endpoints for the transport controls (i.e. for playing and stopping songs), and currently plays music in the somewhat cheesy manner of shelling out to an [MPlayer](https://en.wikipedia.org/wiki/MPlayer) process.
 
+To add music to it, the intent is you open a Samba share on your computer and drag files over, because it's 2023 and I listen to directories of music files. Eventually the server will be watching the directory via inotify and reindex your tunes.
+
 Multiple clients can connect at the same time and see what's playing, with the current transport state synced over websockets.
 
 It can be served on a local network at an address like `stereo.local` using mDNS (e.g. with Avahi).
