@@ -1,17 +1,14 @@
 package player
 
-import(
-)
-
 type Playable interface {
-  GetName() string
-  GetPath() string
+	GetName() string
+	GetPath() string
 }
 
 type Player interface {
-  Play(p Playable)
-  Stop()
-  OnSongEnd(f func())
+	Play(p Playable)
+	Stop()
+	OnSongEnd(f func())
 }
 
 // TODO: Synchronize access to this.
@@ -20,8 +17,8 @@ type Player interface {
 var _player Player
 
 func GetPlayer() Player {
-  if _player == nil {
-    _player = &MPlayer{}
-  }
-  return _player
+	if _player == nil {
+		_player = &MPlayer{}
+	}
+	return _player
 }
