@@ -38,8 +38,8 @@ It can be served on a local network at an address like `stereo.local` using mDNS
 
 why would you do that to yourself, but OK
 
-1. Install Mint.
-2. Install Go.
+1. [Install Mint](https://mint-lang.com/install).
+2. [Install Go](https://go.dev/dl/).
 
 Build the Mint application:
 ```
@@ -47,10 +47,10 @@ $ cd ui
 $ mint build
 ```
 
-Change back to the main directory, then build and start the server:
+Change back to the main directory, then build and start the server, telling it where your music files are:
 ```
 $ make
-$ ./stereo --dir="/home/evan/Music"
+$ ./stereo --dir="/home/you/Music"
 ```
 
 You can change the port with `--port` and decide whether or not to reindex on startup with `--reindex`.
